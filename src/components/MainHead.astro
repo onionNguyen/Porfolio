@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-	title = 'Jeanine White: Personal Site',
-	description = 'The personal site of Jeanine White',
+	title = 'Nhat Nguyen: Personal Site',
+	description = 'The personal site of Nhat Nguyen',
 } = Astro.props;
 ---
 
@@ -16,6 +16,7 @@ const {
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
+<link rel="stylesheet" href="/path/to/carousel.css">
 <title>{title}</title>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
